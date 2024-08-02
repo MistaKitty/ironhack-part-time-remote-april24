@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Nunito Sans Regular';
+    src: url('./fonts/NunitoSans_10pt-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito Sans Semi Bold';
+    src: url('./fonts/NunitoSans_10pt-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito Extra Light';
+    src: url('./fonts/Nunito-ExtraLight.ttf');
+}
+
+body {
+    background-image: url('../images/meditationBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Nunito Sans Semi Bold';
+}
+
+nav {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1160px;
+    height: 34px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: 'Nunito Extra Light';
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 13px;
+    color: white;
+}
+
+/* .nunito-sans-semi-bold > * {
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-size: '13px';
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  } */
+
+  /* .add-right-space {
+    margin-right: 30px;
+  } */
+
+  #links-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #links-container > li {
+    margin-right: 30px;
+  }
+
+  #hero-container {
+    margin-left: 140px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #meditation-description {
+    width: 496px;
+    margin-top: 30px;
+    font-family: 'Nunito Sans Regular';
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 150%;
+  }
+
+  #buttons-container {
+    margin-top: 60px;
+  }
+
+  #buttons-container > button {
+    font-family: 'Nunito Sans Semi Bold';
+    font-size: 16px;
+  }
+
+  #nav-signup {
+    width: 94px;
+    height: 34px;
+    border: none;
+    border-radius: 200px;
+    color: #FFFFFF;
+
+  }
+
+  #hero-try{
+    width: 168px;
+    height: 50px;
+    border: none;
+    border-radius: 224px;
+    color: #2E2C2C;
+    background-color: #FFFFFF;
+    margin-right: 31px;
+  }
+
+  #hero-signup {
+    width: 168px;
+    height: 50px;
+    border: none;
+    border-radius: 224px;
+    color: #FFFFFF;
+  }
+
+  button:hover{
+    cursor: pointer;
+  }

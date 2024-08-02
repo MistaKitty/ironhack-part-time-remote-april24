@@ -1,0 +1,11 @@
+<h1>Filter products</h1>
+
+<form action="/filter-products" method="get">
+<label for="">Quantity</label>
+<input type="text" name="quantity" />
+<button type="submit">Filter products</button>
+</form>
+
+{{#if product}}
+<p>{{product.name}} has {{product.quantity}} items</p>
+{{/if}}

@@ -1,0 +1,9 @@
+<h1>{{oneBook.title}}</h1>
+<h3>Description: {{oneBook.description}}</h3>
+<h4>Cast:</h4>
+{{#each oneBook.cast}}
+
+  <a href="/characters/character-detail/{{this._id}}">
+    <h4>{{this.name}}</h4>
+  </a>
+{{/each}}

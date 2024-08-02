@@ -1,0 +1,87 @@
+html {
+    font-size: 10px; /* 1rem = 10px */
+}
+
+body {
+    background: #F8F3ED;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+nav {
+    width: 100vw; /* 100% of the viewport width*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-style: normal;
+}
+
+nav > ul {
+    border: 1px solid black;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin-left: 3.2rem;
+}
+
+ul li {
+    color: blue;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 2.455rem;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav-button, #call-button {
+    background: #000000;
+    color: #FFFFFF;
+} 
+
+#nav-button {
+    width: 7.7rem;
+    height: 3.2rem;
+}
+#call-button {
+    width: 21.9rem;
+    height: 3.8rem;
+    margin-top: 4.4rem;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+}
+
+#profile-container {
+    margin-top: 2.5rem;
+}
+
+#lawyer-name {
+    margin-top: 3.8rem;
+}
+
+#lawyer-title {
+    margin-top: 2.4rem;
+}
+
+#lawyer-description{
+    margin-top: 2.9rem;
+}
+
+button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+<h1>Here is all the books</h1>
+{{#each allBooks}}
+  <a href="/books/book-detail/{{this._id}}">
+    <div class="book-card">
+      <h3>Book Title: {{this.title}}</h3>
+      <h3>Book Description: {{this.description}}</h3>
+      <a href="/books/update-book/{{this._id}}">
+        <button>Edit</button>
+      </a>
+    </div>
+  </a>
+{{/each}}

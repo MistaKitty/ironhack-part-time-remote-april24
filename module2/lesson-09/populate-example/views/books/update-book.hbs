@@ -1,0 +1,11 @@
+<h1>Update book here</h1>
+<form action="/books/update-a-book/{{foundBook._id}}" method="post">
+  <input type="text" name="title" value="{{foundBook.title}}" />
+  <input type="text" name="description" value="{{foundBook.description}}" />
+  <select name="cast" multiple>
+    {{#each allCharacters}}
+      <option value="{{this._id}}">{{this.name}}</option>
+    {{/each}}
+  </select>
+  <button>Update</button>
+</form>

@@ -1,0 +1,11 @@
+<h1>Create a book</h1>
+<form action="/books/create-a-book" method="post">
+  <input type="text" placeholder="Book Title" name="title" />
+  <input type="text" placeholder="Book Description" name="description" />
+  <select name="cast" multiple>
+    {{#each allCharacters}}
+      <option value="{{this._id}}">{{this.name}}</option>
+    {{/each}}
+  </select>
+  <button>Create</button>
+</form>
